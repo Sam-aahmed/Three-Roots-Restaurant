@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="paybody">
+    <h1 class="pay">Payment</h1>
+    <form class="payform">
+        <label for="cardnumber" >Card Number:</label>
+        <input class="label" type="text"  name="cardnumber" placeholder="Enter your card number">
+        <br><br>
+        <label for="expiry">Expiry Date:</label>
+        <input class="label" type="text"  name="expiry" placeholder="MM/YY">
+        <br><br>
+        <label for="cvv">CVV:</label>
+        <input class="label" type="text"  name="cvv" placeholder="Enter CVV">
+        <br><br>
+            <label for="name">Cardholder Name:</label>
+        <input class="label" type="text" name="name" placeholder="Enter cardholder name">
+        <br><br>
+          <label>How would u like to take ur order:</label>
+          <select class="label">
+            <option value="pickup">Pickup</option>
+            <option value="delivery">Delivery</option>
+        </select>
+        <br><br>
+        <label for="address">Delivery Address:</label>
+        <input class="label" type="text" id="address" name="address" placeholder="Enter your delivery address">
+        
+        <br><br>
+
+        <textarea placeholder="Enter any special instructions..." cols="40" rows="5"></textarea>
+        <br><br>
+         <label class="label" value="">Select a Payment Method</label>
+        <select class="label">
+           
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="instapay">Insta Pay</option>
+            <option value="cash">Cash</option>
+        </select>
+        <br><br>
+  
+        <input class="paybtn" type="submit" value="Pay Now">
+          </form>
+    <p class="parag">Thank you for your order! Your payment has been processed successfully. We appreciate your business and look forward to serving you again soon.</p>
+    
+</body>
+</html>

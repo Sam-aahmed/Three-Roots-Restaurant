@@ -1,0 +1,164 @@
+/* main */
+
+.body{
+    background-color: rgb(172, 184, 204)
+}
+.h1{
+    text-align: center;
+    font: bold;
+    font-size: 75px;
+    text-decoration: underline;
+}
+.text{
+    width: 90%;
+    font-size: 26px;
+
+}
+.p{
+    font-size:35px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+}
+.egypt{
+    padding-left: 60px;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-between;
+}
+.italy{
+    width: 25%;
+}
+.reg{
+   font-size: 30px;
+}
+.sign{
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* form index */
+
+.both{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 800px;
+}
+.field{
+    padding: 20px;
+ background-color: rgb(172, 184, 204);
+font-size: 20px;
+}
+.forms{
+ background-color: rgb(221, 226, 234)
+  
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+  background-color: rgb(221, 226, 234);
+
+}
+.all{
+    display: flex;
+   
+}.both img{
+     width: 330px;
+    height: 310px;
+    margin-left: 150px;
+    
+}
+
+
+ /* egypt */
+.bordr{
+    border: 5px solid black;
+    padding: 10px;;
+}
+.bodyy{
+  background-color: rgb(221, 226, 234);
+}
+.dish{
+    text-align: center;
+    font: bold;
+    font-size: 60px;
+}
+
+.descp{
+    width: 30%;
+}
+.tables{
+  
+    background-color: rgb(172, 184, 204);
+    text-align: center;
+    font-size: 30px;
+}
+.header{
+    padding:20px;
+}
+.mahshi img{
+    width: 40%;
+}
+.feteer img{
+    width: 40%;
+}
+
+/* pay */
+.pay{
+    font: bolder ;
+    text-align: center;
+    font-size: 60px;
+    
+}
+.payform{
+   background-color: rgb(172, 184, 204);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+}
+.label{
+    padding: 10px;
+}
+.paybtn{
+    padding: 20px 20px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.parag{
+    width: 50%;
+    font-size: 25px;
+}
+.paybody{
+  background-color: rgb(221, 226, 234)
+}
+
+
+
+/* .head{
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+.boxs{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: rosybrown;
+}
+.foot{
+    text-align: center;
+    background-color: antiquewhite;
+
+} */
