@@ -1,36 +1,34 @@
 /* main */
 
-.body{
-    background-color: rgb(172, 184, 204)
-}
-.h1{
-    text-align: center;
+.hhh{
+    margin: 0;
     font: bold;
-    font-size: 75px;
-    text-decoration: underline;
+    font-size: 55px;
+    color: rgb(84, 33, 33);
+    
+}
+.topp{
+  display: block;
+  
 }
 .text{
     width: 90%;
     font-size: 26px;
+    color:rgb(61, 23, 23);
 
 }
+/* .dark {
+    background-color: black;
+    color: white;
+} */
 .p{
     font-size:35px;
     font-style: italic;
     text-align: center;
     padding-top: 30px;
-}
-.egypt{
-    padding-left: 60px;
+    color:rgb(61, 23, 23);
 }
 
-.pic{
-    display: flex;
-    justify-content: space-between;
-}
-.italy{
-    width: 25%;
-}
 .reg{
    font-size: 30px;
 }
@@ -38,49 +36,183 @@
     padding: 10px;
     font-size: 20px;
 }
-
-/* form index */
-
-.both{
-    display: inline-block;
-    justify-content: space-between;
-    margin-left: 800px;
+.menubar{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
 }
-.field{
-    padding: 20px;
- background-color: rgb(172, 184, 204);
-font-size: 20px;
+#sideMenu{
+ background-color: black;
+  position: fixed;
+ top: 0;
+ left: 0;
+ width: 0;
+ transition: 0.3s;
+ overflow-x: hidden; 
+ 
 }
-.forms{
- background-color: rgb(221, 226, 234)
+#sideMenu ul li{
+    list-style-type: none;
+padding-bottom: 10px;
+}
+#sideMenu ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 28px;
+    transition: 0.3s;
+}
+#sideMenu ul li a:hover{
+    color: rgb(69, 7, 7);
+    transition: 0.3s;
+}
+.closebtn{
+    position: absolute; /*place x beside the parent sidemenu*/
+    color:white;
+    top:0;
+    right: 20px;
+}
+
+/*slideshow */
+#slideshow-div{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    position: relative;
+}
+#slideshow-div img{
+    width: 30%;
+    height: 20%;
   
 }
+.prev{
+   position: absolute;
+   top:80%;
+   padding-left:580px ;
+   color: rgb(112, 50, 50);
+   font-size: 30px;
+}
+.next{
+    right: 0;
+   position: absolute;
+   top:80%;
+   padding-right: 639px;
+   color: rgb(112, 50, 50);
+   font-size: 30px;
+}
 
-.btn{
+/* 
+indexform */
+
+
+.indexform{
+       background-color:rgba(170, 171, 169, 0.594);
+    padding: 10px;
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    width: 40%;
+}
+.error{
+    color: rgb(235, 56, 56);
+}
+.forms{
+background-image: url(./images/WhatsApp\ Image\ 2026-05-09\ at\ 2.37.01\ PM.jpeg);
+ 
+}
+.btnn{
     padding: 10px 20px;
     font-size: 16px;
     border: none;
   background-color: rgb(221, 226, 234);
 
 }
-.all{
-    display: flex;
-   
-}.both img{
-     width: 330px;
-    height: 310px;
-    margin-left: 150px;
-    
+ /* egypt -syria-italy */
+
+.title{
+    text-align:center;
+    color:white;
+    font-size:50px;
+    margin-bottom:40px;
+    text-shadow:2px 2px 10px rgba(0,0,0,0.3);
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:30px;
+}
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+/* .card:hover{
+    transform:translateY(-10px) scale(1.02);
+} */
+
+/* IMAGE */
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    transition:0.4s;
 }
 
 
- /* egypt */
+.card-content{
+    padding:20px;
+}
+
+.card h2{
+    /* color:#ff5722; */
+      color:#5d2830;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:15px;
+}
+*/
+
+.price{
+    font-size:22px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:15px;
+}
+
+
+
+.btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#5d2830;
+    color:white;
+    font-size:16px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* .btn:hover{
+    background:#ff5722;
+    transform:scale(1.03);
+} */
+
+
 .bordr{
     border: 5px solid black;
     padding: 10px;;
-}
-.bodyy{
-  background-color: rgb(221, 226, 234);
 }
 .dish{
     text-align: center;
@@ -112,18 +244,21 @@ font-size: 20px;
     font: bolder ;
     text-align: center;
     font-size: 60px;
-    
+    color: white;
 }
+
 .payform{
-   background-color: rgb(172, 184, 204);
+   background-color:rgba(170, 171, 169, 0.594);
     padding: 10px;
-    width: 50%;
+    padding-top: 70px;
     margin: auto;
-    width: 100%;
-    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    width: 40%;
 }
 .label{
-    padding: 10px;
+    padding: 5px;
 }
 .paybtn{
     padding: 20px 20px;
@@ -135,30 +270,100 @@ font-size: 20px;
 .parag{
     width: 50%;
     font-size: 25px;
+    color: #fff;
 }
 .paybody{
-  background-color: rgb(221, 226, 234)
+background-image: url(./images/WhatsApp\ Image\ 2026-05-09\ at\ 2.37.01\ PM.jpeg);
+}
+
+/* PAYMENT BUTTON */
+#payBtn{
+    display:block;
+    width:90%;
+    margin:20px auto;
+    padding:15px;
+    background:blue;
+    color:white;
+    border:none;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:8px;
 }
 
 
+/* dark mode */
 
-/* .head{
-    text-align: center;
-    background-color: antiquewhite;
-    
-}
-.boxs{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
-.box{
-    width: 80px;
-    height: 80px;
-    background-color: rosybrown;
-}
-.foot{
-    text-align: center;
-    background-color: antiquewhite;
 
+
+
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #9e8f8f;
+  margin: 0;
+  transition: background 0.2s linear;
+}
+/* dark mode for form */
+body.dark form{
+    color: #fff;
+}
+
+body.dark {background-color: #292c35;
+} 
+
+body.dark h1, body.dark p{color: #fff;
+}
+* {box-sizing:border-box;
+    }
+.checkbox {
+  /* opacity: 0;
+  position: absolute; */
+  display: none;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;} 
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+/* .checkbox-label .ball {
+  transform: translateX(24px);
 } */
+
+
+
+/* search bar */
+.bars{
+    padding-top:20px;
+}
+#searchbar{
+    padding: 10px;
+    width: 35%;
+}

@@ -5,30 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Roots - Sign Up</title>
     <link rel="stylesheet" href="./main.css">
+
 </head>
 <body class="forms">
-    <fieldset class="field">
-        <legend>Sign Up</legend>
-        <div class="all">
+<div>
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span class="ball"></span>
+  </label>
+</div>
 
-        <div>
-        <form class="payform">
-            <label>First Name:</label>
-            <input class="label" type="text"  name="name" placeholder="Enter your first name">
-            <br><br>
-              <label>Last Name:</label>
-        <input class="label" type="text"  name="name" placeholder="Enter your last name">
-        <br><br>
-      
-        <label for="email">Email:</label>
-        <input class="label" type="email" name="email" placeholder="Example@gmail.com">
-        <br><br>
-        <label>Password:</label>
-        <input class="label" type="password"  name="password" placeholder="Enter your password">
-        <br><br>
-         <label>Phone Number:</label>
-        <input class="label" type="text" name="phone" placeholder="Enter your phone number">
-        <br><br>
+
+        
+        <form class="indexform" onsubmit="return validation()" name="regform">
+        
+ <label id="fnameLabel">First Name: *</label>
+    <input type="text" name="First_Name" placeholder="Enter your first name">
+    <br><br>
+
+    <label id="lnameLabel">Last Name: *</label>
+    <input type="text" name="Last_Name" placeholder="Enter your last name">
+    <br><br>
+
+    <label id="emailLabel">Email: *</label>
+    <input type="email" name="email" placeholder="Example@gmail.com">
+    <br><br>
+
+    <label id="passLabel">Password: *</label>
+    <input type="password" name="password" placeholder="Enter your password">
+    <br><br>
           <label> Gender:</label>
         <br>
         <input class="label" type="radio"  name="gender" value="male">
@@ -55,18 +62,15 @@
 
  
 
-        <input class="btn" type="submit" value="Submit">
-        <input class="btn" type="reset" value="Reset">
+        <input class="btnn" type="submit" value="Submit">
+        <input class="btnn" type="reset" value="Reset">
         <br>
     </form>
-    </div>
-<div class="both">
-            <img src="./images/r3.jpg">
-            <img src="./images/r4.jpg">
-     
-        </div>
-</div>
+    
 
-    </fieldset>
+<!-- </div> -->
+
+    <!-- </fieldset> -->
+    <script src="./java/main.js"></script>
 </body>
 </html>

@@ -1,42 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Roots</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body class="body">
-   
-    <h1 class="h1">THREE ROOTS</h1>
+<body >
+
+ <div class="topp">
+
   
-   
+
+<div>
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span class="ball"></span>
+  </label>
+</div>
+
+
+  
+       <h1 class="hhh">THREE ROOTS</h1>
+   <img src="./images/menubar.webp" width="30px" onclick="openmenu()";>
+
+    <div class="bars">
+    <input type="text" placeholder="search Here" id="searchbar" >
+    <button onclick="search()" >Search</button>
+ </div>
+
+   <div id="sideMenu" >
+    <ul>
+        <li class="menubar">Menu</li>
+        <li><a href="#"  class="closebtn" onclick="closemenu();">&times;</a></li>
+        <li><a href="./index.html" >Sign up</a> </li>
+        <li><a href="./egypt.html" >Egypt</a> </li>
+        <li><a href="./syria.html" >Syria</a> </li>
+        <li><a href="./italy.html" >Italy</a> </li>
+        <li><a href="./pay.html"   >Payment</a> </li>
+    </ul>
+   </div>
+ </div>
     <p class="text">Welcome to Three Roots , where flavors travel across cultures and traditions meet on every plate. Our kitchen brings together the rich heritage of Egyptian, Syrian, and Italian cuisines, creating a unique dining experience that celebrates authenticity and passion. From the comforting aromas of the Nile to the vibrant spices
  of the Levant and the timeless elegance of Italy, every dish is crafted to tell a story and delight your senses. </p>
 
 <p class="p">Ready To Explore Our Menu?</p>
-    <div class="pic">
-        
-
-        <div class="egypt">
-            <img src="./images/nile.webp" alt="nile">
-           <a href="./egypt.html"><h2>From The Nile (Egyptian) click here</h2></a>
-        </div>
-        <div class="syria">
-            <img src="./images/syria2.png" alt="syria" length="180px">
-            
-          <a href="./syria.html"><h2>Levant Delights(Syrian) click here</h2></a>  
-        </div>
-        <div class="italy">
-            <img src="./images/italy.webp" alt="italy">
-            <a href="./italy.html"><h2>Italian Traditions (Italian) click here</h2></a>
-        </div>
-
-
+    <div id="slideshow-div">
+        <div> <img src="./images/1.jpeg" id="slideshow"></div>
     </div>
+    <a class="next" onclick="next()">&#10095;</a>
+     <a  class="prev" onclick="prev();">&#10094;  </a> 
 
     <p class="reg">Three Cultures.One Experience, Join Us Today</p>
-    <a href="./index.html"><button class="sign">Signup</button></a>
+ 
     
+    <script src="./java/main.js"></script>
 </body>
 </html>
